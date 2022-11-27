@@ -1,5 +1,5 @@
 import React from "react";
-import DropdownButton from "./dropdown-button";
+import DropdownButton from "../dropdown-button";
 import { ButtonComponent, ButtonsWrapper } from "./left.styled";
 
 const dropdown = [

@@ -1,7 +1,6 @@
-import React from "react";
 import styled from "styled-components";
 
-const Button = styled.button`
+export const Button = styled.button`
   display: flex;
   align-items: center;
   color: var(--gray);
@@ -13,7 +12,7 @@ const Button = styled.button`
     object-position: center;
   }
 `;
-const Wrapper = styled.div`
+export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,14 +23,3 @@ const Wrapper = styled.div`
   width: 350px;
   flex-shrink: 0;
 `;
-
-export default function CreateBtn() {
-  return (
-    <Wrapper>
-      <Button>
-        <img src="/icons/plus-gray.svg" alt="create status" />
-        <span>Create status</span>
-      </Button>
-    </Wrapper>
-  );
-}
