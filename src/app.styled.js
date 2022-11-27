@@ -7,4 +7,5 @@ export const Wrapper = styled.div`
 `;
 export const Main = styled.main`
   bacground: var(--white);
+  width: 100%;
 `;
