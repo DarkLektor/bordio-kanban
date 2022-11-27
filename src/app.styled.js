@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   width: 100%;
   display: flex;
 `;
-export const Main = styled.main`
-  bacground: var(--white);
+export const Content = styled.div`
+  background: #fff;
   width: 100%;
 `;

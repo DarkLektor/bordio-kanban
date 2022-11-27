@@ -1,7 +1,8 @@
 import Sidebar from "./components/sidebar";
 import Tools from "./components/tools";
 import Header from "./components/header";
-import { Main, Wrapper } from "./app.styled";
+import Kanban from "./components/kanban";
+import { Content, Wrapper } from "./app.styled";
 
 function App() {
   return (
@@ -10,9 +11,10 @@ function App() {
         <Sidebar />
         <Tools />
 
-        <Main>
+        <Content>
           <Header />
-        </Main>
+          <Kanban />
+        </Content>
       </Wrapper>
     </div>
   );
