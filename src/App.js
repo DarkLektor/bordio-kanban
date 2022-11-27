@@ -1,13 +1,19 @@
-import styled from "styled-components";
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: palevioletred;
-`;
+import Sidebar from "./components/sidebar";
+import Tools from "./components/tools";
+import Header from "./components/header";
+import { Main, Wrapper } from "./app.styled";
+
 function App() {
   return (
     <div className="App">
-      <Title>Kanban</Title>
+      <Wrapper>
+        <Sidebar />
+        <Tools />
+
+        <Main>
+          <Header />
+        </Main>
+      </Wrapper>
     </div>
   );
 }
