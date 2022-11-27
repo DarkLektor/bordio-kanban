@@ -1,0 +1,31 @@
+@import "assets/fonts/index.css";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --sidebar-main: #0f1d40;
+  --sidebar-secondary: #2d4071;
+  --main: #0094ff;
+  --secondary: #f5f8fa;
+  --black: #222222;
+  --gray: #8c939f;
+  --card-gray: #f0f0f0;
+  --card-green: #d8dcff;
+  --card-orange: #ffdfba;
+  --card-pink: #fec6b7;
+  --card-light-green: #d9e6a2;
+  --card-purple: #f2bae1;
+}
+
+body {
+  font-family: "Roboto", serif;
+  line-height: 16.4px;
+  font-size: 14px;
+  color: var(--black);
+}
